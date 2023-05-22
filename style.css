@@ -1,0 +1,51 @@
+table,td,th,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 70vw;
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+}
+p{
+    margin: 0%;
+    font-size: 250%;
+    font-weight: bold;
+}
+*{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-size: large;
+}
+caption{
+    font-size: x-large;
+}
+td,th{
+    width:15vw;
+}
+select{
+    border-radius: 5px;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 22vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+#main{
+    
+    display: grid;
+    background-color: aqua;
+    width: 70vw;
+    height: 35VW;
+    border-radius: 20px;
+    box-shadow: 5px 7.5px 4px;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}

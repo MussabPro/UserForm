@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>UserForm</title>
+  </head>
+  <body>
+    <div id="main">
+      <p>User Form</p>
+      <form method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name" />
+        <label for="Fname">Father Name</label>
+        <input type="text" id="Fname" placeholder="Father Name" />
+        <br />
+        <br />
+        <label for="Gender">Gender</label>
+        <div>
+          <select id="Gender" onchange="gender()">
+            <option value="Select">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+          <span class="Other">
+            <input type="text" id="Other" disabled />
+          </span>
+        </div>
+      </form>
+      <input type="submit" value="Submit" onclick="Submit()" />
+    </div>
+    <br />
+    <br />
+    <div>
+      <table>
+        <thead>
+          <caption>
+            DataBase
+          </caption>
+          <tr>
+            <th>Name</th>
+            <th>Father</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
